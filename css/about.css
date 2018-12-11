@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster");
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand"');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand span {
+  color: #fed136;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+span {
+  margin-left: 0px;
+}
+
+#banner {
+  background-color: #161313;
+  opacity: .6;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 1.1em 1em !important;
+  font-size: 120%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  border-top: 3px solid #fed136;
+}
+
+.dropdown-item:hover {
+  background-color: #fed136;
+  color: #fff;
+}
+
+nav {
+  -webkit-transition: padding-top .3s,padding-bottom .3s;
+  transition: padding-top .3s,padding-bottom .3s;
+  border: none;
+}
+
+.shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
+}
+
+.banner-text {
+  padding: 200px 0 150px 0;
+}
+
+.banner-heading {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.banner-sub-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.btn-banner {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+img {
+  text-align: center;
+}
+
+.page2 {
+  background-color: black;
+  background-size: cover;
+  background-image: url("/images/backround/pexels-photo-1437866.jpeg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.page2 .intro {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.page2 p {
+  color: #000;
+  background-color: rgba(20, 18, 18, 0.4);
+  border-color: grey;
+}
+
+.page2 button {
+  margin: 15px;
+}
+
+footer {
+  background-color: #000;
+  height: 260px;
+}
+
+footer p {
+  color: white;
+  line-height: 1500%;
+}
+
+/* mobile view */
+@media (max-width: 500px) {
+  body {
+    background-image: url(/images/backround/mobile.jpeg);
+    background-size: cover;
+  }
+  .navbar-nav {
+    background-color: #000;
+    border-top: 3px solid #fed136;
+    color: #fff;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em !important;
+    font-size: 100%;
+    font-weight: 500;
+  }
+  .banner-text {
+    padding: 150px 0 150px 0;
+  }
+  .banner-heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .banner-sub-heading {
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-text {
+    padding: 150px 0 150px 0;
+  }
+  .banner-sub-heading {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+  .navbar-nav {
+    background-color: #000;
+    border-top: 3px solid #fed136;
+    color: #fff;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em !important;
+    font-size: 100%;
+    font-weight: 500;
+  }
+  .page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  h2 .frame-5 span {
+    color: black;
+  }
+  .page2 {
+    overflow: hidden;
+    background-color: #1a1f1f;
+    height: 100%;
+    width: 100vw;
+  }
+  .page2 .intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .page2 p {
+    color: #fdf9f9;
+    background-color: rgba(3, 3, 3, 0.3);
+  }
+  .foot {
+    line-height: 200%;
+  }
+}
+/*# sourceMappingURL=about.css.map */

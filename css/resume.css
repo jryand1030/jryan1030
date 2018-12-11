@@ -1,0 +1,125 @@
+#mainbody {
+  margin: 8px 0px 0px 0px;
+  padding-bottom: 25px;
+  background-image: url("/images/backround/background-resume.jpg");
+  background-size: cover;
+}
+
+h2.myname {
+  color: #111213 !important;
+  font-family: 'Abel', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4.heading {
+  font-size: 2empx;
+  font-style: italic;
+  color: #090a0a;
+  font-family: 'Lato', sans-serif;
+  text-shadow: black;
+}
+
+h4.mytitle {
+  font-family: 'Lato', sans-serif;
+}
+
+h5.mydegree {
+  /* schools and degrees */
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
+hr {
+  border-top: 3px solid #193e52 !important;
+}
+
+icons i {
+  color: burlywood;
+}
+
+i {
+  color: burlywood;
+}
+
+#name_id {
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 5px !important;
+  border-width: 2px !important;
+  border-color: #c2d8e3 !important;
+  background-color: beige;
+}
+
+.card-title {
+  font-size: 15px;
+  text-decoration: underline;
+  color: #050808;
+}
+
+a:hover h2 {
+  color: #394444;
+}
+
+.card-text {
+  font-family: sans-serif;
+  color: #eaf3f2;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-body {
+  border: 6px;
+  background-color: #7c7e77;
+  -webkit-box-shadow: 0px 0px 4px 4px #110f0f;
+          box-shadow: 0px 0px 4px 4px #110f0f;
+}
+
+#experandeduc {
+  padding: 5px 15px 5px 15px;
+}
+
+ul {
+  padding-left: 16px;
+  padding-right: 10px;
+}
+
+ul li {
+  list-style-position: outside;
+  font-family: 'Lato', sans-serif;
+}
+
+#exptime {
+  line-height: 0.85;
+}
+
+#footer {
+  color: #010507;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.year {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.diploma {
+  font-weight: bold;
+}
+
+.job-title {
+  font-weight: bold;
+}
+/*# sourceMappingURL=resume.css.map */
