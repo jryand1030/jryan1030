@@ -1,9 +1,0 @@
-DirectoryIndex wordpress/index.php
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /wordpress/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/index.php [L]
-</IfModule>
