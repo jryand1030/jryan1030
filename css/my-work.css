@@ -357,7 +357,7 @@ h2 {
 img {
   -webkit-transform: perspective(400px);
           transform: perspective(400px);
-  height: 45%;
+  height: 100%;
   width: 100%;
 }
 
