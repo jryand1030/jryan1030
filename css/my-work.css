@@ -297,6 +297,7 @@ footer p {
   }
   .card {
     position: relative;
+    min-height: 100%;
     margin-top: -1%;
     background-color: rgba(250, 248, 248, 0.8);
   }
